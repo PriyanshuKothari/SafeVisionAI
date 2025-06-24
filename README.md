@@ -24,18 +24,19 @@ SafeVisionAI is an AI-powered real-time surveillance system built using Computer
   A simple web interface to view captured frames, timestamps, and system status logs in real-time — helping authorities or users to review suspicious events quickly and visually.
 
 
-⚙️ Tech Stack
-Component	Tool/Library
-Object Detection	YOLOv5, OpenCV
-Audio Recognition	Vosk, SpeechRecognition
-Backend/Integration	Python, Flask
-Alerting System	Telegram Bot API
-Deployment (MVP)	Google Colab + Render
+## ⚙️ Tech Stack
 
-📁 Folder Structure
-css
-Copy
-Edit
+| Component             | Tool/Library                        |
+|----------------------|-------------------------------------|
+| Object Detection      | [YOLOv5](https://github.com/ultralytics/yolov5), OpenCV |
+| Audio Recognition     | Vosk, SpeechRecognition             |
+| Backend & API Server  | Flask                               |
+| Alert System          | Telegram Bot API                    |
+| Dashboard UI          | HTML, Jinja2, Bootstrap (via Flask) |
+| Deployment (MVP)      | Google Colab (for training), Render (for dashboard) |
+
+
+## 📁 Folder Structure
 SafeVisionAI/
 ├── detection/
 │   └── object_detection.py
@@ -47,7 +48,9 @@ SafeVisionAI/
 ├── main.py
 ├── requirements.txt
 └── README.md
-✅ How It Works (MVP)
+
+
+## ✅ How It Works (MVP)
 Camera stream is monitored in real-time.
 
 Model detects specific suspicious activities or voice triggers.
@@ -56,7 +59,7 @@ System captures image frames and logs the time of event.
 
 Alert is sent via Telegram bot to notify the response team.
 
-🧠 Future Enhancements
+## 🧠 Future Enhancements
 Accident/crash detection with vehicle details
 
 Integration with hospital alert systems
@@ -65,10 +68,10 @@ Face recognition and ID verification
 
 Drone-based surveillance and GPS tracking
 
-📽️ Demo
-(Coming Soon — Add your demo video link here)
+## 📽️ Demo
+Coming Soon...
 
-👨‍💻 Developed By
+## 👨‍💻 Developed By
 Priyanshu Kothari
 B.Tech Final Year Student
 Aspiring AI/ML Engineer
